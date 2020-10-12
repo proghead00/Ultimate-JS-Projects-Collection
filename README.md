@@ -5,7 +5,7 @@
 | Project        | Link         
 | :------------- | :----------: 
 | Movie Ticket Booking | https://movie-ticket-booking.netlify.app/  
-
+| OG Video Player | https://og-video-player.netlify.app/
 
 
 
