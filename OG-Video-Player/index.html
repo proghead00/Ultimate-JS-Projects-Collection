@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Custom Video Player</title>
+    <link href="style.css" rel="stylesheet">    
+    <link href="progress.css" rel="stylesheet">
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+
+</head>
+<body>
+
+
+    
+
+</div>
+   
+    <h1> OG Video Player</h1>
+
+    <video 
+    
+    src="video.mp4" id="video" class="screen" poster="poster.jpg"></video>
+   
+   <div class="controls">
+       <button class="btn" id="play">
+        <i class="fa fa-play fa-2x"></i>
+       </button>
+       
+       <button class="btn" id="stop">
+        <i class="fa fa-stop fa-2x"></i>
+
+       </button>
+
+
+       <input type="range" id="progress" class="progress" min="0" max="100" step="0.1"
+       value="0">
+
+       <span class="timestamp" id="timestamp">00:00</span>
+   </div>
+   
+    <script src="script.js"></script>
+
+</body>
+</html>

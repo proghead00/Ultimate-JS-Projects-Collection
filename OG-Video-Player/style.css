@@ -1,0 +1,78 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap");
+
+* {
+  font-family: "Montserrat", sans-serif;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  max-height: 100vh;
+  background-color: rgb(236, 202, 208);
+  z-index: -1;
+}
+
+h1 {
+  margin-top: 2.4em;
+  text-align: center;
+  color: rgb(26, 19, 19);
+}
+
+.screen {
+  cursor: pointer;
+  width: 50%;
+  background-color: #000 !important;
+  border-radius: 0px 20px 0px 0px;
+  box-shadow: 3px 7px 15px 8px rgb(0, 0, 0, 0.4);
+}
+
+@media (max-width: 800px) {
+  .screen,
+  .controls {
+    width: 90% !important;
+  }
+  h1 {
+    font-size: 26px;
+  }
+}
+
+.controls {
+  background-color: #000;
+  color: wheat;
+  width: 50%;
+  box-shadow: 3px 7px 15px 6px rgb(0, 0, 0, 0.4);
+  border-radius: 0px 0px 0px 20px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
+}
+
+.controls .btn {
+  border: 0;
+  background: transparent;
+  cursor: pointer;
+}
+.controls .fa-play {
+  color: rgb(100, 212, 134);
+}
+.controls .fa-stop {
+  color: rgb(216, 25, 25);
+}
+.controls .fa-pause {
+  color: rgb(238, 245, 240);
+}
+
+.controls .timestamp {
+  color: wheat;
+  font-weight: bold;
+  margin-left: 10px;
+}
+
+.btn:focus {
+  outline: 0;
+}
