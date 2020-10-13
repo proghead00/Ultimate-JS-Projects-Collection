@@ -7,7 +7,7 @@
 | Movie Ticket Booking | https://movie-ticket-booking.netlify.app/  | Book seat for movies
 | OG Video Player | https://og-video-player.netlify.app/  | Custom made video player
 |New Year Countdown | https://ny-countdown.netlify.app/  | Dynamic New Year Countdown
-
+|Exchange Rate Calculator  | https://exchange-rate-converter.netlify.app/ | Convert one currency into another
 
 
 
