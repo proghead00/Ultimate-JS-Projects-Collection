@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modal Demo</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+<body>
+    <nav>
+        <div class="logo">
+
+            <img src="https://randomuser.me/api/portraits/men/1.jpg" alt="user">
+
+
+
+        </div>
+
+        <ul>
+           
+               <li>  <a href="#"> Home </a>   </li>
+                <li> <a href="#"> Portfolio </a> </li>
+                <li> <a href="#"> Blog</a> </li>
+                <li> <a href="#"> Contact Me</a> </li>
+
+        </ul>
+
+    </nav>
+
+    <header>
+        <button id="toggle" class="toggle">
+            <i class="fa fa-bars fa-2x"></i>
+        </button>
+
+        <h1> Modal Demo</h1>
+
+        <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius, dolores!</p>
+
+        <button class="cta-btn" id="open">
+            Sign Up
+        </button>
+    </header>
+
+    <div class="container">
+        <h2> Demo as heck</h2>
+        <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque odit, omnis corporis pariatur voluptas fugit quaerat dignissimos excepturi reprehenderit autem!</p>
+
+        <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam, id. Nobis sunt assumenda, quidem enim totam quis vero cumque ea!</p>
+
+        <h2> Ssup?</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium libero tempora itaque explicabo suscipit obcaecati deserunt, odit laboriosam nisi animi?</p>
+
+        <h2> What's poppin' mate</h2>
+        
+        <ul>
+            <li>Benefits</li>
+            <li> Insurance</li>
+            <li> Regret </li>
+        </ul>
+        <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia recusandae dignissimos.</p>
+    </div>
+
+
+
+
+<!-- MODAL -->
+    <div class="modal-container" id="modal">
+        <div class="modal">
+            <button class="close-btn" id="close">
+                <i class="fa fa-times"></i>
+            </button>
+
+            <div class="modal-header">
+                <h3> Sign Up</h3>
+            </div>
+            <div class="modal-content">
+                <p> Register to get an early bird access!</p>
+<form  class="modal-form">
+    <div>
+        <label for="name">Name</label>
+        <input type="text" id="name" class="form-input" placeholder="Enter name">
+    </div>
+    <div>
+        <label for="name">E-mail</label>
+        <input type="email"  class="form-input" id="email" placeholder="Enter e-mail">
+    </div>
+    <div>
+        <label for="name">Password</label>
+        <input type="password"  class="form-input" id="password" placeholder="Enter password">
+    </div>
+    <div>
+        <label for="name">Confirm Password</label>
+        <input type="password"   class="form-input" id="password2" placeholder="Confirm Password">
+    </div>
+
+<input type="submit" value="Submit" class="submit-btn">
+
+
+</form>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+
+    <script src="script.js"></script>
+</body>
+</html>
