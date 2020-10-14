@@ -1,0 +1,83 @@
+import java.util.Scanner;
+
+ public class promatrix 
+ {
+ public static void main(String[] args) 
+ {
+ int a,b;     //a is number of rows and b is number of columns
+ int i , j;   //i and j used for looping
+
+ Scanner sc=new Scanner(System.in);
+ System.out.print("Input number of rows: ");
+ a=sc.nextInt();
+ System.out.print("Input number of columns: ");
+ b=sc.nextInt();
+
+
+          int X[][]=new int[a][b];
+          int Y[][]=new int[a][b];
+          int Z[][]=new int[a][b];
+
+
+          System.out.println("Enter elements of matrix X");
+          for(i=0; i<a; i++)                       //inputting the rows through loop i and columns through loop j
+          {
+              for(j=0; j<b; j++)
+              {
+
+                  X[i][j]=sc.nextInt();
+              }
+          }
+
+          System.out.println("Enter elements of matrix Y:");        //inputting the rows through loop i and columns through loop j
+          for(i=0; i<a; i++)
+          {
+              for(j=0; j<b; j++)
+              {
+
+                  Y[i][j]=sc.nextInt();
+              }
+          }
+
+
+          System.out.println("Matrix X :-");          //To show new matrix X
+          for(int i=0; i<a; i++)
+          {
+              for(int j=0; j<b; j++)
+              {
+                  System.out.print(X[i][j] + "\t");
+              }
+              System.out.print("\n");
+          }
+
+
+          System.out.println("Matrix Y :- ");    //To show new matrix Y
+          for(int i=0; i<a; i++)
+          {
+              for(int j=0; j<b; j++){
+                  System.out.print(Y[i][j] + "\t");
+              }
+              System.out.print("\n");
+          }
+
+
+          for(int i=0; i<a; i++).                 //Multiplying the two Matrices
+          {
+              for(int j=0; j<b; j++)
+              {
+                  Z[i][j]=X[i][j]*Y[i][j];
+              }
+          }
+
+
+          System.out.println("Product of two matrices is :-");
+          for(int i=0; i<a; i++)
+          {
+              for(int j=0; j<b; j++)
+              {
+                  System.out.print(Z[i][j] + "\t");
+              }
+              System.out.print("\n");
+          }
+      }
+  }
