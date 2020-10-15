@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+*{
+    box-sizing: border-box;
+}
+
+body{
+ 
+ background-image: linear-gradient(12deg, #3e2da3 0%, #41073f 84%);
+    font-family: 'Raleway',sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+   
+    margin: 0;
+    min-height: 100vh;
+}
+
+
+input {
+    background-color: #7841a5;
+    border-radius: 14px;
+    
+    
+    border: none;
+    box-shadow: 0 -13px 10px rgba(154, 160, 185, 0.05),
+        0 15px 40px rgba(0, 0, 0, 0.3);
+    color: white;
+    font-size: 1rem;
+    padding: 1em;
+    margin-bottom: 2rem;
+}
+
+input::placeholder {
+    color: #bbb;
+     font-family: 'Raleway',
+     sans-serif;
+    text-align: center;
+}
+
+input:focus {
+    outline: none;
+}
+
+.card {
+   
+
+    background-image: linear-gradient(315deg, #482681 10%, #436096 100%);
+    border-radius: 20px;
+  
+   box-shadow: 5px 8px 15px 3px rgb(22, 21, 94);
+    display: flex;
+    padding: 3rem;
+    max-width: 800px;
+}
+.det{
+    display: flex;
+}
+
+.redirect{
+  margin-top: 1.7em;
+  margin-left: 1em;
+ height:25px;
+  width:25px; 
+  display: flex;
+}
+
+.redirect:hover{
+    transform: scale(1.2);
+}
+
+.avatar {
+    border: 10px solid #3b68a1;
+     box-shadow: 1px 2px 22px 1px rgb(22, 21, 73,.9);
+    border-radius: 50%;
+    height: 150px;
+    width: 150px;
+}
+
+.user-info {
+    color: #eee;
+
+    margin-left: 2rem;
+}
+
+.user-info h2 {
+    margin-top: 0;
+}
+
+.user-info ul {
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    padding: 0;
+    font-family: 'Poppins',
+    sans-serif;
+    max-width: 400px;
+}
+
+.user-info ul li {
+    display: flex;
+    align-items: center;
+}
+
+.user-info ul li strong {
+    font-size: 0.9rem;
+    margin-left: 0.5rem;
+}
+
+.repo {
+    background-color: #2a2a72;
+    border-radius: 5px;
+    display: inline-block;
+    color: white;
+    font-size: 0.7rem;
+    padding: 0.25rem 0.5rem;
+    margin-right: 0.5rem;
+    margin-bottom: 0.5rem;
+    text-decoration: none;
+}
