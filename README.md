@@ -11,5 +11,5 @@
 |DOM Array Methods  | https://dom-methods.netlify.app/| Use DOM array methods and understand the working of the high-order functions
 |Modal | https://modal-menu.netlify.app/ | Modal pop-up when clicked "Sign Up" with an animated common hamburger menu
 | Hangman Game| https://hangman-game-vanillajs.netlify.app/  | Play Hangman: Guess the right word
-
+|GitHub Profile Finder| https://github-users-searcher.netlify.app/  | Search GitHub users and see their brief details
 Inspirations include Travsersy and Pop!
