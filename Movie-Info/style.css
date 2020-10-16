@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap');
+* {
+    box-sizing: border-box;
+}
+
+body {
+
+    background-color: #f3eaea;
+    
+    font-family: 'Noto Sans',
+    sans-serif;
+    
+    
+}
+
+header {
+    background-color: #f3eaea;
+    display: flex;
+    justify-content: flex-end;
+    padding: 1rem;
+}
+
+.search {
+    background-color: transparent;
+    border: 2px solid #dbc169;
+    border-radius: 50px;
+    color: rgb(29, 23, 23);
+    font-family: inherit;
+    font-size: 1rem;
+    padding: 0.5rem 1rem;
+}
+
+.search::placeholder {
+    color: #000000;
+}
+
+.search:focus {
+    background-color: #f1eae9;
+    outline: none;
+}
+
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+.movie {
+    background-color: #f5eeed;
+    border-radius: 12px;
+    box-shadow: 0 4px 5px rgba(0, 0, 0, 0.3);
+    overflow: hidden;
+    position: relative;
+    
+    margin: 1rem;
+    width: 300px;
+    
+}
+
+.movie img:hover{
+    opacity: .89;
+   
+}
+
+.movie img {
+    width: 100%;
+}
+
+.movie-info {
+    color: #111;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.5rem 1rem 1rem;
+    letter-spacing: 0.5px;
+}
+
+.movie-info h3 {
+    margin: 0;
+}
+
+.movie-info span {
+    background-color:transparent;
+    border-radius: 3px;
+    font-weight: bold;
+    padding: 0.25rem 0.5rem;
+}
+.movie-info span.green {
+    color: rgb(29, 104, 29);
+}
+
+.movie-info span.orange {
+    color: rgb(151, 115, 47);
+}
+
+.movie-info span.red {
+    color: rgb(189, 42, 42);
+}
+
+.overview {
+    background-color: #fff;
+    padding: 2rem;
+    position: absolute;
+    max-height: 100%;
+    overflow: auto;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    transform: translateY(101%);
+    transition: transform 0.4s ease-in-out;
+}
+
+.overview h3 {
+    margin-top: 0;
+}
+
+.movie:hover .overview {
+    transform: translateY(0);
+}
+
+
+.date2{
+    margin-top: -1em;
+}
