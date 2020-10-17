@@ -14,4 +14,4 @@
 |GitHub Profile Finder| https://github-users-searcher.netlify.app/  | Search GitHub users and see their brief details
 | Movie Info  | https://movie-info-search.netlify.app/  | Look at the top favourite movies now and search other movies to get the overview
 
-Inspirations include Travsersy and Pop!
+Inspirations include Traversy and Pop!
