@@ -15,6 +15,7 @@
 | Movie Info  | https://movie-info-search.netlify.app/  | Look at the top favourite movies now and search other movies to get the overview
 | Recipe Finder | https://recipe-finder-webapp.netlify.app/  | Find recipes
 |Beat It | https://beat-it-beats.netlify.app/  | Make quick beats with one tap 
+|Meditate  | https://meditate-relax.netlify.app/  | Meditate and relax just with 3 instructions and music 
 
 
 Inspirations include Traversy and Pop!
