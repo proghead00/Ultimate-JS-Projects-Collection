@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+* {
+    font-family: 'Montserrat',
+        sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    background: #225e51 url('./bg12.jpg') no-repeat center center/cover;
+    margin: 0;
+    min-height: 100vh;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    color: white;
+    flex-direction: column;
+
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    margin: auto;
+    height: 300px;
+    width: 300px;
+    position: relative;
+    transform: scale(1);
+}
+
+h1 {
+    font-size: 3rem;
+    margin-top: 4.2rem;
+}
+
+.circle {
+    background-color: rgb(15, 59, 52);
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+    position: absolute;
+    z-index: -1;
+
+}
+
+#text {
+    font-size: 1.5rem;
+    margin-left: 1rem;
+    color: #fffdfd;
+    font-weight: bold;
+
+}
+
+
+.gradient-circle {
+    background: conic-gradient(#55b7a4 0%,
+            #4ca493 40%,
+            rgb(224, 233, 228) 40%,
+            rgb(245, 242, 242) 60%,
+            #336d62 60%,
+            #2a5b52 100%);
+    height: 320px;
+    width: 320px;
+    z-index: -2;
+    border-radius: 50%;
+    position: absolute;
+    top: -10px;
+    left: -10px;
+    box-shadow: 4px 8px 13px rgba(16, 61, 51, 0.9)
+}
+
+
+.pointer {
+    background-color: #f7f7f7;
+    border-radius: 50%;
+    height: 20px;
+    width: 20px;
+    display: block;
+}
+
+.pointer-container {
+    position: absolute;
+    top: -40px;
+    left: 140px;
+    width: 20px;
+    height: 190px;
+    animation: rotate 7.5s linear forwards infinite;
+    transform-origin: bottom center;
+}
+
+@keyframes rotate {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+.container.grow {
+    animation: grow 3s linear forwards;
+}
+
+@keyframes grow {
+    from {
+        transform: scale(1);
+    }
+
+    to {
+        transform: scale(1.2);
+    }
+}
+
+.container.shrink {
+    animation: shrink 3s linear forwards;
+}
+
+@keyframes shrink {
+    from {
+        transform: scale(1.2);
+    }
+
+    to {
+        transform: scale(1);
+    }
+}
+
+
+audio:hover,
+audio:focus,
+audio:active {
+    outline: none;
+    box-shadow: 5px 5px 11px rgba(49, 148, 148, 0.4);
+    -webkit-transform: scale(1.05);
+    -moz-transform: scale(1.05);
+    transform: scale(1.05);
+}
+
+audio {
+    -webkit-transition: all 0.5s linear;
+    -moz-transition: all 0.5s linear;
+    -o-transition: all 0.5s linear;
+    transition: all 0.5s linear;
+
+    box-shadow: 2px 2px 12px 5px #55a3a8;
+
+    border-radius: 89px;
+}
