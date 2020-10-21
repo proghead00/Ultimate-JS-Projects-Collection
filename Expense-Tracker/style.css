@@ -1,0 +1,185 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap');
+
+*{
+    font-family: 'Noto Sans',
+sans-serif;
+margin: 0;
+box-sizing: border-box;
+}
+
+
+:root{
+    --box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12),
+    0 1px 2px rgba(0, 0, 0, 0.24)
+}
+
+body {
+    background-color: #f3faf9;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+.container {
+    margin: 30px auto;
+    width: 350px;
+}
+
+h1 {
+    letter-spacing: 1px;
+    text-align: center;
+   
+}
+
+h2{
+    margin-top: 2.9rem;
+    font-size: 2.5rem;
+    color: rgb(216, 59, 59);
+    letter-spacing: 2px;
+      text-shadow: 1px 1.2px #ec47d6;
+}
+h3 {
+    border-bottom: 1px solid #bbb;
+    padding-bottom: 10px;
+    margin: 40px 0 10px;
+    text-align: center;
+}
+
+h4 {
+    margin: 0;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.inc-exp-container {
+    background-color: #fff;
+   border-radius: 71px;
+   background: #fcfffe;
+   box-shadow: 0px 6px 10px #b1fafa,
+   917px -87px 54px #fff7f7;
+    /* box-shadow: var(--box-shadow); */
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0;
+}
+
+.inc-exp-container>div {
+    flex: 1;
+    text-align: center;
+}
+
+.inc-exp-container>div:first-of-type {
+    border-right: 1px solid #dedede;
+    
+}
+
+.money {
+    font-size: 20px;
+    letter-spacing: 1px;
+    margin: 5px 0;
+    
+    
+}
+
+.money.plus {
+    color: #4fbd7d;
+}
+
+.money.minus {
+    color: #e05141;
+}
+
+label {
+    display: inline-block;
+    margin: 10px 0;
+}
+
+.form-control{
+    margin-bottom: 2.9rem;
+}
+input[type='text'],
+input[type='number'] {
+    border: 1px solid #dedede;
+    display: block;
+    font-size: 16px;
+    padding: 11px;
+    width: 100%;
+     border-radius: 71px;
+     box-shadow: 4px 6px 7px 0px rgba(131, 190, 173, 0.7);
+}
+
+#text, #amount:focus{
+    outline: none;
+}
+
+.btn {
+    cursor: pointer;
+    background-color: #4d3c91;
+    box-shadow: var(--box-shadow);
+    color: #fff;
+    border: 0;
+    display: block;
+    border-radius: 4px;
+    font-size: 16px;
+    margin: 10px 0 30px;
+    padding: 10px;
+    width: 100%;
+}
+
+.btn:hover{
+    background-color: #469b69;
+    
+}
+
+.btn:focus,
+.delete-btn:focus {
+    outline: 0;
+}
+
+.list {
+    list-style-type: none;
+    padding: 0;
+    margin-bottom: 40px;
+}
+
+.list li {
+    background-color: #fff;
+    box-shadow: var(--box-shadow);
+    color: #333;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    padding: 10px;
+    margin: 10px 0;
+}
+
+.list li.plus {
+    border-right: 5px solid #2ecc71;
+}
+
+.list li.minus {
+    border-right: 5px solid #c0392b;
+}
+
+.delete-btn {
+    cursor: pointer;
+    background-color: #e74c3c;
+    border: 0;
+    color: #fff;
+    font-size: 20px;
+    line-height: 20px;
+    padding: 2px 5px;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translate(-100%, -50%);
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+.list li:hover .delete-btn {
+    opacity: 1;
+}
