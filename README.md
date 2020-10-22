@@ -17,5 +17,7 @@
 |Beat It | https://beat-it-beats.netlify.app/  | Make quick beats with one tap 
 |Meditate  | https://meditate-relax.netlify.app/  | Meditate and relax just with 3 instructions and music 
 |Expense Tracker| https://expense-tracker-ls.netlify.app/  | Keep a note of your expenses and income(with localstorage data update)
+| Music Player  | https://music-player-01.netlify.app/ | Custom scalable music player
+
 
 Inspirations include Traversy and Pop!
