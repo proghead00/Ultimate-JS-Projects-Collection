@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Todo</title>
+		<link href="./style.css" rel="stylesheet" />
+
+		<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+			integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA=="
+			crossorigin="anonymous"
+		/>
+	</head>
+	<body>
+		<header>
+			<h1>Todo Mate</h1>
+		</header>
+
+		<form>
+			<input type="text" class="todo-input" />
+			<button class="todo-button" type="submit">
+				<i class="fas fa-plus-square"></i>
+			</button>
+
+			<div class="select">
+				<select name="todos" class="filter-todo">
+					<option value="all">All</option>
+					<option value="completed">Completed</option>
+					<option value="uncompleted">Uncompleted</option>
+				</select>
+			</div>
+		</form>
+
+		<div class="todo-container">
+			<ul class="todo-list"></ul>
+		</div>
+		<script src="./script.js"></script>
+	</body>
+</html>
